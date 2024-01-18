@@ -1,25 +1,15 @@
-import statsData from "./statsData";
-
+import MYTasks from "../Tasks/MYTasks";
+import StatsBoton from "./StatsBoton";
+import StatsTop from "./StatsTop";
 function Stats() {
   return (
-    <div>
-      <div className="flex justify-between">
-        <h1>Stats</h1>
-        <button>Last 90 Day</button>
+    <div className="w-full  mr-[20px] ">
+      <div className="bg-[#5468] rounded-md mb-[20px]">
+        <StatsTop />
+        <StatsBoton />
       </div>
-      <div>
-        <div className="flex gap-8 ">
-          {statsData.map((item) => (
-            <div
-              key={item.key}
-              className=" px-[62px] border-r-4 border-indigo-500"
-            >
-              <h1 className="text-3xl">{item.Count}</h1>
-              <p className="text-[16px]">{item.label}</p>
-              <p className="text-">{item.progress}</p>
-            </div>
-          ))}
-        </div>
+      <div className="bg-[#5468] rounded-md">
+        <MYTasks />
       </div>
     </div>
   );

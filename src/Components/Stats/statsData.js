@@ -3,7 +3,7 @@ const statsData = [
     id: "01",
     Count: "238",
     label: "Prequalifications",
-    // progressSide: "3",
+    progressSide: "3",
     progress: "4.8 %",
   },
   {

@@ -1,11 +1,11 @@
 import Banner from "../Bannner/Banner";
-import RecentCallSection from "../RecentCallSection/RecentCallSection";
+import StateTaskCall from "../StateTaskCall/StateTaskCall";
 
 function Welcome() {
   return (
     <div>
       <Banner />
-      <RecentCallSection />
+      <StateTaskCall />
     </div>
   );
 }
