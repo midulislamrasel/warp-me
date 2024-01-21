@@ -4,8 +4,8 @@ import { FaRegCopy } from "react-icons/fa";
 function UpcomingWarp() {
   return (
     <div>
-      <div className=" ">
-        <div className="pt-[18px] py-[20px]">
+      <div className=" mt-[30px] px-[30px] pb-[20px] bg-[#FFF]">
+        <div className=" mt-8 py-[20px] ">
           <div className="flex justify-between w-full">
             <h1 className="text-[16px] font-[700] text-[#060F14]">
               Upcoming Warp Meetings
@@ -15,120 +15,154 @@ function UpcomingWarp() {
         </div>
         {/* ======== */}
         <div className="flex justify-between">
-          <div className="border border-red rounded-md">
-            <div className=" px-[18px] py-[16px] flex justify-between bg-indigo-400">
-              <div className="mr-[24px] ">
-                <p className="text-[12px] font-[400]">Starting In </p>
-                <h3 className="text-[14px] font-[700]">12 Minit </h3>
+          <div className="border  border-[#060F140D]rounded-md">
+            <div className=" px-[18px] py-[16px] flex justify-between  border-b-2 border-[#060F140D]">
+              <div className="mr-[24px]">
+                <p className="text-[#060F144D] text-[12px] font-[400]">
+                  Starting In{" "}
+                </p>
+                <h3 className="text-[#060F14] text-[14px] font-[700]">
+                  12 Minit{" "}
+                </h3>
               </div>
               <div className="flex items-center gap-5">
-                <button className=" font-[FE654F] text-[#FE654F] text-[14px] font-[600] border-4 border-red px-[11px] py-[9px] rounded-md mr-[10px]">
+                <button className=" font-[FE654F] text-[14px] font-[600] border-2 border-[#FE654F] px-[11px] py-[9px] rounded-md mr-[10px]">
                   Connect
                 </button>
-                <BiSolidPaint className="mr-[10px]" />
-                <FaRegCopy className="mr-[10px]" />
-              </div>
-            </div>
-            <div className="bg-sky-300">
-              <div className="px-[18px] py-[16px]">
-                <h1 className="text-[14px] font-[700]">
-                  Lorem Isum Meeting Title
-                </h1>
-                <h1 className="flex items-center">
-                  <span>
-                    <IoWomanSharp />
-                  </span>
-                  <p className="text-[14px] font-[400]"> 6 Participants</p>
-                </h1>
-              </div>
-            </div>
-          </div>
-          {/* ==================*/}
-          <div className="border border-red rounded-md">
-            <div className=" px-[18px] py-[16px] flex justify-between bg-indigo-400">
-              <div className="mr-[24px] ">
-                <p className="text-[12px] font-[400]">Starting In </p>
-                <h3 className="text-[14px] font-[700]">12 Minit </h3>
-              </div>
-              <div className="flex items-center gap-5">
-                <button className=" font-[FE654F] text-[#FE654F] text-[14px] font-[600] border-4 border-red px-[11px] py-[9px] rounded-md mr-[10px]">
-                  Connect
-                </button>
-                <BiSolidPaint className="mr-[10px]" />
-                <FaRegCopy className="mr-[10px]" />
-              </div>
-            </div>
-            <div className="bg-sky-300">
-              <div className="px-[18px] py-[16px]">
-                <h1 className="text-[14px] font-[700]">
-                  Lorem Isum Meeting Title
-                </h1>
-                <h1 className="flex items-center">
-                  <span>
-                    <IoWomanSharp />
-                  </span>
-                  <p className="text-[14px] font-[400]"> 6 Participants</p>
-                </h1>
-              </div>
-            </div>
-          </div>
+                <BiSolidPaint className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
 
-          <div className="border border-red rounded-md">
-            <div className=" px-[18px] py-[16px] flex justify-between bg-indigo-400">
-              <div className="mr-[24px] ">
-                <p className="text-[12px] font-[400]">Starting In </p>
-                <h3 className="text-[14px] font-[700]">12 Minit </h3>
-              </div>
-              <div className="flex items-center gap-5">
-                <button className=" font-[FE654F] text-[#FE654F] text-[14px] font-[600] border-4 border-red px-[11px] py-[9px] rounded-md mr-[10px]">
-                  Connect
-                </button>
-                <BiSolidPaint className="mr-[10px]" />
-                <FaRegCopy className="mr-[10px]" />
+                <FaRegCopy className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
               </div>
             </div>
-            <div className="bg-sky-300">
+            <div className="">
               <div className="px-[18px] py-[16px]">
                 <h1 className="text-[14px] font-[700]">
                   Lorem Isum Meeting Title
                 </h1>
                 <h1 className="flex items-center">
-                  <span>
+                  <span className="text-[#060F144D]">
                     <IoWomanSharp />
                   </span>
-                  <p className="text-[14px] font-[400]"> 6 Participants</p>
+                  <p className=" text-[#060F144D] text-[14px] font-[400]">
+                    {" "}
+                    6 Participants
+                  </p>
                 </h1>
               </div>
             </div>
           </div>
-          <div className="border border-red rounded-md">
-            <div className=" px-[18px] py-[16px] flex justify-between bg-indigo-400">
-              <div className="mr-[24px] ">
-                <p className="text-[12px] font-[400]">Starting In </p>
-                <h3 className="text-[14px] font-[700]">12 Minit </h3>
+          {/* =========2=========*/}
+          <div className="border  border-[#060F140D]rounded-md">
+            <div className=" px-[18px] py-[16px] flex justify-between  border-b-2 border-[#060F140D]">
+              <div className="mr-[24px]">
+                <p className="text-[#060F144D] text-[12px] font-[400]">
+                  Starting In{" "}
+                </p>
+                <h3 className="text-[#060F14] text-[14px] font-[700]">
+                  12 Minit{" "}
+                </h3>
               </div>
               <div className="flex items-center gap-5">
-                <button className=" font-[FE654F] text-[#FE654F] text-[14px] font-[600] border-4 border-red px-[11px] py-[9px] rounded-md mr-[10px]">
+                <button className=" font-[FE654F] text-[14px] font-[600] border-2 border-[#FE654F] px-[11px] py-[9px] rounded-md mr-[10px]">
                   Connect
                 </button>
-                <BiSolidPaint className="mr-[10px]" />
-                <FaRegCopy className="mr-[10px]" />
+                <BiSolidPaint className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
+
+                <FaRegCopy className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
               </div>
             </div>
-            <div className="bg-sky-300">
+            <div className="">
               <div className="px-[18px] py-[16px]">
                 <h1 className="text-[14px] font-[700]">
                   Lorem Isum Meeting Title
                 </h1>
                 <h1 className="flex items-center">
-                  <span>
+                  <span className="text-[#060F144D]">
                     <IoWomanSharp />
                   </span>
-                  <p className="text-[14px] font-[400]"> 6 Participants</p>
+                  <p className=" text-[#060F144D] text-[14px] font-[400]">
+                    {" "}
+                    6 Participants
+                  </p>
                 </h1>
               </div>
             </div>
           </div>
+          {/* ========= */}
+          <div className="border  border-[#060F140D]rounded-md">
+            <div className=" px-[18px] py-[16px] flex justify-between  border-b-2 border-[#060F140D]">
+              <div className="mr-[24px]">
+                <p className="text-[#060F144D] text-[12px] font-[400]">
+                  Starting In{" "}
+                </p>
+                <h3 className="text-[#060F14] text-[14px] font-[700]">
+                  12 Minit{" "}
+                </h3>
+              </div>
+              <div className="flex items-center gap-5">
+                <button className=" font-[FE654F] text-[14px] font-[600] border-2 border-[#FE654F] px-[11px] py-[9px] rounded-md mr-[10px]">
+                  Connect
+                </button>
+                <BiSolidPaint className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
+
+                <FaRegCopy className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
+              </div>
+            </div>
+            <div className="">
+              <div className="px-[18px] py-[16px]">
+                <h1 className="text-[14px] font-[700]">
+                  Lorem Isum Meeting Title
+                </h1>
+                <h1 className="flex items-center">
+                  <span className="text-[#060F144D]">
+                    <IoWomanSharp />
+                  </span>
+                  <p className=" text-[#060F144D] text-[14px] font-[400]">
+                    {" "}
+                    6 Participants
+                  </p>
+                </h1>
+              </div>
+            </div>
+          </div>
+          {/* ==== */}
+          <div className="border  border-[#060F140D]rounded-md">
+            <div className=" px-[18px] py-[16px] flex justify-between  border-b-2 border-[#060F140D]">
+              <div className="mr-[24px]">
+                <p className="text-[#060F144D] text-[12px] font-[400]">
+                  Starting In{" "}
+                </p>
+                <h3 className="text-[#060F14] text-[14px] font-[700]">
+                  12 Minit{" "}
+                </h3>
+              </div>
+              <div className="flex items-center gap-5">
+                <button className=" font-[FE654F] text-[14px] font-[600] border-2 border-[#FE654F] px-[11px] py-[9px] rounded-md mr-[10px]">
+                  Connect
+                </button>
+                <BiSolidPaint className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
+
+                <FaRegCopy className="mr-[10px] border-2 rounded-md  p-2 text-[36px]" />
+              </div>
+            </div>
+            <div className="">
+              <div className="px-[18px] py-[16px]">
+                <h1 className="text-[14px] font-[700]">
+                  Lorem Isum Meeting Title
+                </h1>
+                <h1 className="flex items-center">
+                  <span className="text-[#060F144D]">
+                    <IoWomanSharp />
+                  </span>
+                  <p className=" text-[#060F144D] text-[14px] font-[400]">
+                    {" "}
+                    6 Participants
+                  </p>
+                </h1>
+              </div>
+            </div>
+          </div>
+          {/* ====== */}
         </div>
       </div>
     </div>
@@ -136,26 +170,3 @@ function UpcomingWarp() {
 }
 
 export default UpcomingWarp;
-
-//  <div>
-// <div className=" flex justify-between bg-indigo-400">
-//   <div>
-//     <p>Starting In </p>
-//     <h3>12Minit </h3>
-//   </div>
-//   <div className="flex items-center gap-5">
-//     <button>Connect</button>
-//     <BiSolidPaint />
-//     <FaRegCopy />
-//   </div>
-// </div>
-// <div className="bg-sky-300">
-//   <h1>Lorem Isum Meeting Title</h1>
-//   <h1 className="flex items-center">
-//     <span>
-//       <IoWomanSharp />
-//     </span>{" "}
-//     Lorem Isum Meeting Title
-//   </h1>
-// </div>
-// </div>

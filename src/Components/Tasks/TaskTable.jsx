@@ -58,7 +58,9 @@ function TaskTable() {
               <h1>{itme.assigned.img}</h1>
               <h1>{itme.assigned.name}</h1>
             </div>
-            <h1>{itme.status}</h1>
+            <h1 className="tex-[#2D9CDB] px-[10px] bg-[#d2dfe7] ">
+              {itme.status}
+            </h1>
             <h1 className="pr-[33px]">{itme.dueDate}</h1>
           </div>
         </div>

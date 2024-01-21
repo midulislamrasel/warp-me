@@ -1,17 +1,20 @@
 import "./App.css";
+// import RootLayout from "./layout/RootLayout";
 import Navbar from "./Components/Navbar/Navbar";
 import Welcome from "./Components/Welcome/Welcome";
-
 function App() {
   return (
     <>
-      <div className="container mx-auto">
-        <div className="flex">
-          <div className=" w-[240px] h-full ">
-            <Navbar />
-          </div>
-          <div className="w-[1200px] h-full ">
-            <Welcome />
+      {/* <RootLayout></RootLayout> */}
+      <div className="bg-[#F4F5F5]">
+        <div className="  ">
+          <div className="flex">
+            <div className="w-[200px] h-full ">
+              <Navbar />
+            </div>
+            <div className="w-full h-full ">
+              <Welcome />
+            </div>
           </div>
         </div>
       </div>
@@ -20,3 +23,18 @@ function App() {
 }
 
 export default App;
+
+{
+  /* <div className="bg-[#F4F5F5]">
+<div className="  ">
+  <div className="flex">
+    <div className="w-[200px] h-full ">
+      <Navbar />
+    </div>
+    <div className="w-full h-full ">
+      <Welcome />
+    </div>
+  </div>
+</div>
+</div> */
+}

@@ -57,7 +57,7 @@ function RecentCallSection() {
     },
   ];
   return (
-    <div className=" w-[332px]  p-[20px] bg-slate-400 rounded-md">
+    <div className=" w-[332px]  p-[20px] bg-[#FFF] rounded-md">
       <div className="flex justify-between mb-[16px]">
         <h1 className="text-[16px] font-[700] ">Recent Call Logs</h1>
         <p className="text-[14px] font-[400]">View All</p>
@@ -76,7 +76,7 @@ function RecentCallSection() {
                     </div>
                     <div className="flex items-center">
                       <h1 className="text-[10px] font-[700]">{callName}</h1>
-                      <h1 className="text-[10px] text-[#bed0db] bg-[#29658A] rounded-md px-[4px]">
+                      <h1 className="text-[10px] tex-[#2D9CDB] bg-[#d2dfe7] rounded-md px-[4px]">
                         {callTime}
                       </h1>
                     </div>
